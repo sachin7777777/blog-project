@@ -1,0 +1,13 @@
+.bollywood{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+.img2{
+    width: 280px;
+    height: 250px;
+}
+.img3{
+    width: 150px;
+    height: 120px;
+}

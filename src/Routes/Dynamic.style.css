@@ -1,0 +1,17 @@
+.container{
+    /* width: 100vb;
+    margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+    /* height: 300px;
+    width: 445px;
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover */
+    width: 500px;
+    height: 400px;
+}
