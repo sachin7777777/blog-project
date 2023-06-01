@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = ({headertext}) => {
   return (
-    <h1>{headertext}</h1>
+    <h1 style={{marginLeft:"15px", color:"darksalmon"}}>{headertext}</h1>
   )
 }
 

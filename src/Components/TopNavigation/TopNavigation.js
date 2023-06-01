@@ -10,15 +10,15 @@ const TopNavigation = () => {
             <Logo/>
         </div>
       <div className='nav'>
-      <Link to="/">Home</Link>
-      <Link to="/bollywood">Bollywood</Link>
-      <Link to="/hollywood">Hollywood</Link>
-      <Link to="/Technology">Technology</Link>
-      <Link to="/fitness">Fitness</Link>
-      <Link to="/food">Food</Link>
+      <Link to="/" className='text'>Home</Link>
+      <Link to="/bollywood" className='text'>Bollywood</Link>
+      <Link to="/hollywood" className='text'>Hollywood</Link>
+      <Link to="/Technology" className='text'>Technology</Link>
+      <Link to="/fitness" className='text'>Fitness</Link>
+      <Link to="/food" className='text'>Food</Link>
       </div>
       <div>
-        <hr />
+        {/* <hr /> */}
       </div>
     </div>
   )

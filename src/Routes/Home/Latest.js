@@ -10,18 +10,18 @@ const Latest = () => {
     <div>
       <div><Header headertext={"The Latest"}/></div>
       <div>
-            <div style={{display:"flex", gap:"15px", justifyContent:"center"}}>
+            <div style={{display:"flex", flexWrap:"wrap", gap:"15px", justifyContent:"center"}}>
                 {count.filter((item) => item.cat === 'the latest').map((d, index) => {
                     return (
-                        <div>
+                        <div  className='latest'>
                           <div>
                           <Link to={`/dynamic/${d.id}`} state={d}>
                           <img src={d.img} alt="" className='img4'/>
                           </Link>
                 
-                          <h4>Lorem ipsum dolor <br /> sit amet consectetur adipisicing elit.  <br /> Veniam consectetur excepturi  <br /> est sunt qui nulla!</h4>
+                          <h4>Messi relocated to Spain from Argentina <br />  for whom he made his competitive  <br /> Three successful seasons followed <br /> est sunt qui nulla!</h4>
                           {/* <h4>{d.heading}</h4> */}
-                          <p>{d.para}</p>
+                          {/* <p>{d.para}</p> */}
                           
                           </div>
                           

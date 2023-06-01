@@ -17,18 +17,18 @@ const ArticlesList = () => {
             <div>
                 {count.filter((item) => item.cat === 'hollywood').map((d, index) => {
                     return (
-                        <div style={{display:"flex", gap:"15px", marginTop:"35px"}}>
-                          <div>
                           <Link to={`/dynamic/${d.id}`} state={d}>
+                        <div className='articlelist'>
+                          <div>
                           <img src={d.img} alt="" className='img2'/>
-                          </Link>
                           </div>
                           <div>
-                          <h4>Lorem ipsum, dolor sit amet <br /> consectetur adipisicing elit.</h4>
-                          <p>Lorem ipsum, dolor sit amet <br /> consectetur adipisicing elit.</p>
+                          <h4 className='line1'>Hollywood was laid out as a real-estate <br /> from Kansas who envisioned</h4>
+                          <p className='line1'>adobe building 1853 on a site<br /> prohibitionist from Kansas who envisioned</p>
                           </div>
                       
                         </div>
+                          </Link>
                     )
                 })}
             </div>

@@ -3,8 +3,9 @@ import "./Logo.style.css"
 
 const Logo = () => {
   return (
-    <div>
-      <h1 className='logo'>Logo</h1>
+    <div className='logo'>
+      <h1 className='the'>The</h1>
+      <h1>Siren</h1>
     </div>
   )
 }

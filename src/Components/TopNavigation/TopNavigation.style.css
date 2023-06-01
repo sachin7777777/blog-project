@@ -1,6 +1,15 @@
 .nav{
+    padding: 20px;
+    background-color: lightgrey;
+    
     display: flex;
     justify-content: space-around;
     font-size: larger;
     text-decoration : none
+
+}
+.text{
+    text-decoration: none;
+    color: cadetblue;
+    font-weight: bold;
 }

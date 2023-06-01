@@ -16,19 +16,19 @@ const ArticlesList = () => {
       <div>
             <div>
                 {count.filter((item) => item.cat === 'bollywood').map((d, index) => {
-                    return (
-                        <div style={{display:"flex", gap:"15px", marginTop:"35px"}}>
+                  return (
+                      <Link to={`/dynamic/${d.id}`} state={d}>
+                        <div className='articlelist'>
                           <div>
-                          <Link to={`/dynamic/${d.id}`} state={d}>
                           <img src={d.img} alt="" className='img2'/>
-                          </Link>
                           </div>
                           <div>
-                          <h4>Lorem ipsum, dolor sit amet <br /> consectetur adipisicing elit.</h4>
-                          <p>Lorem ipsum, dolor sit amet <br /> consectetur adipisicing elit.</p>
+                          <h4 className='line1'>transform our lives. Stay informed <br /> breakthroughs and the ethical and</h4>
+                          <p className='line1'>The props help you hold<br /> exerting or tiring out your muscles</p>
                           </div>
                       
                         </div>
+                          </Link>
                     )
                 })}
             </div>

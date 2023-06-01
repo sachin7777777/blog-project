@@ -9,7 +9,7 @@ const LatestStories = () => {
        <div>
       <div><Header headertext={"Latest Stories"}/></div>
       <div>
-            <div style={{display:"flex", gap:"15px", justifyContent:"center"}}>
+            <div style={{display:"flex",flexWrap:"wrap", gap:"15px", justifyContent:"center"}}>
                 {count.filter((item) => item.cat === 'the latest').map((d, index) => {
                     return (
                         <div>
@@ -17,8 +17,8 @@ const LatestStories = () => {
                 
                           {/* <img src={d.img} alt="" height={"150"}/> */}
                           <h2>Catch wave with <br /> an adventure guide</h2> <hr />
-                          <p>Lorem ipsum dolor sit <br /> amet consectetur adipisicing elit. <br /> Aspernatur voluptate eos porro <br /> eius cupiditate est dolores voluptatibus <br /> odit doloremque dolorum expedita<br /> Distinctio, consequatur?</p>
-                          <p>{d.para}</p>
+                          <p>he Indian film industry entere<br />Stay informed about the latest technological<br /> Aspernatur voluptate eos porro <br /> eius cupiditate est dolores voluptatibus <br /> odit doloremque dolorum expedita<br /> passive poses for longer without</p>
+                          {/* <p>{d.para}</p> */}
                           
                           </div>
           

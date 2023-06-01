@@ -10,12 +10,12 @@ const LatestArticles = () => {
   return (
     <div>
       <div><Header headertext={"Latest Articles"}/></div>
-      <div style={{display:"flex", justifyContent:"space-around"}}>
+      <div className='latestarticle'>
       <div>
                 {count.filter((item) => item.cat === 'latestarticles').map((d, index) => {
                     return (
                         <div>
-                          <div style={{display:"flex", gap:"15px", marginTop:"35px"}}>
+                          <div style={{display:"flex", flexWrap:"wrap", gap:"15px", marginTop:"35px"}}>
                           
                           <div>
                           <Link to={`/dynamic/${d.id}`} state={d}>
@@ -23,9 +23,9 @@ const LatestArticles = () => {
                             </Link>
                             </div>
                           <div>
-                          <h4>Lorem ipsum dolor <br /> sit amet consectetur adipisicing elit.  <br /> Veniam consectetur excepturi  <br /> est sunt qui nulla!</h4>
+                          <h4>hree successful seasons followed <br /> he is only one with government allows state  <br /> Veniam consectetur excepturi  <br /> est sunt qui nulla!</h4>
                           {/* <h4>{d.heading}</h4> */}
-                          <p>{d.para}</p>
+                          {/* <p>{d.para}</p> */}
                           </div>
                           
                           </div>

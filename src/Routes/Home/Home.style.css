@@ -6,53 +6,72 @@
     /* margin: 10px; */
     padding: 50px;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .one{
-    
+    border-radius: 15px;
     height: 451px;
     width: 690px;
-    border: 2px solid black;
+    /* border: 2px solid rgb(164, 48, 48); */
     background-image: url("https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/12/20/2561657-untitled-design-10.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .a{
+    border-radius: 15px;
     margin-bottom: 20px;
     height: 214px;
     width: 281px;
-    border: 2px solid black;
+    /* border: 2px solid rgb(110, 214, 40); */
     background-image: url("https://cdn.mos.cms.futurecdn.net/9D6x8wrHVHTmdWBL2GCrX9.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .b{
-    
+    border-radius: 15px;
     height: 214px;
     width: 281px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-image: url("https://m.wsj.net/video/20180907/090718muskpot1/090718muskpot1_1920x1080.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .hh{
+    border-radius: 15px;
     margin-top: 170px;
     height: 344px;
     width: 565px;
-    border: 2px solid black;
+    /* border: 2px solid rgb(37, 84, 178); */
     background-image: url("https://imageio.forbes.com/specials-images/imageserve/5de7d8c0b269e900075d5ecb/0x0.jpg?format=jpg&crop=3214,1807,x0,y106,safe&width=1200");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
+
 .img4{
     width: 311px;
     height: 221px;
+    margin: 4px;
+    border-radius: 15px;
 }
 .img5{
+    border-radius: 15px;
     width: 250px;
     height: 200px;
+}
+.latestarticle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+@media screen and (min-width:300px) and (max-width:600px){
+    .latestarticle{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
 }

@@ -17,18 +17,18 @@ const ArticlesList = () => {
             <div>
                 {count.filter((item) => item.cat === 'technology').map((d, index) => {
                     return (
-                        <div style={{display:"flex", gap:"15px", marginTop:"35px"}}>
-                          <div>
                           <Link to={`/dynamic/${d.id}`} state={d}>
+                        <div className='articlelist'>
+                          <div>
                           <img src={d.img} alt="" className='img2'/>
-                          </Link>
                           </div>
                           <div>
-                          <h4>Lorem ipsum, dolor sit amet <br /> consectetur adipisicing elit.</h4>
-                          <p>Lorem ipsum, dolor sit amet <br /> consectetur adipisicing elit.</p>
+                          <h4 className='line1'>He established himself as an integral<br /> consectetur adipisicing elit.</h4>
+                          <p className='line1'>Three successful seasons followed <br /> consectetur adipisicing elit.</p>
                           </div>
                       
                         </div>
+                          </Link>
                     )
                 })}
             </div>

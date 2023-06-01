@@ -1,13 +1,36 @@
 .bollywood{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     color: black;
 }
 .img2{
     width: 280px;
     height: 250px;
+    border-radius: 10px;
 }
 .img3{
     width: 150px;
     height: 120px;
+    border-radius: 10px;
+}
+.articlelist{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 15px;
+    margin-top: 35px;
+}
+@media screen and (min-width:300px) and (max-width:700px){
+    .articlelist{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+}
+a:Link {
+    text-decoration: none;
+    
+}
+.line1{
+    color: black;
 }
